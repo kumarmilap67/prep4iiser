@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkout.css">
+    <title>Checkout - PREP4IISER</title>
+</head>
+<body>
+    <header>
+        <div class="logo">PREP4IISER</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Courses</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Checkout</h1>
+        <div class="order-summary">
+            <h2>Review Your Order</h2>
+            <p>Course Title: <strong>MENTORSHIP</strong></p>
+            <p>Price: <strong>₹299</strong></p>
+            <p>Quantity: <strong>1</strong></p>
+            <p>Subtotal: <strong>₹299</strong></p>
+            <input type="text" placeholder="Promo Code" />
+            <button>Apply</button>
+        </div>
+
+        <form class="checkout-form">
+            <h2>Enter Your Information</h2>
+            <h3>Billing Information</h3>
+            <input type="text" placeholder="Full Name" required />
+            <input type="email" placeholder="Email Address" required />
+            <input type="tel" placeholder="Phone Number" required />
+
+            <h3>Payment Information</h3>
+            <input type="text" placeholder="Credit/Debit Card Number" required />
+            <input type="text" placeholder="Expiry Date (MM/YY)" required />
+            <input type="text" placeholder="CVV" required />
+
+            <h3>Billing Address</h3>
+            <input type="text" placeholder="Street Address" required />
+            <input type="text" placeholder="City" required />
+            <input type="text" placeholder="State/Province" required />
+            <input type="text" placeholder="Zip/Postal Code" required />
+            <select required>
+                <option value="">Select Country</option>
+                <option value="INDIA">USA</option>
+               
+                <!-- Add more countries as needed -->
+            </select>
+
+            <div class="total-amount">
+                <h3>Total Amount: <strong>₹299</strong></h3>
+                <label>
+                    <input type="checkbox" required />
+                    I agree to the Terms and Conditions and Privacy Policy.
+                </label>
+            </div>
+
+            <button type="submit" class="complete-purchase">Complete Purchase</button>
+        </form>
+    </main>
+
+    <footer>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms and Conditions</a> | <a href="#">FAQ</a></p>
+        <p>Contact: support@prep4iser.in | 
+    </footer>
+</body>
+</html>
