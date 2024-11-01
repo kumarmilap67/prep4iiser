@@ -1,0 +1,39 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f8;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styling the syllabus button container */
+.syllabus-container {
+    text-align: center;
+}
+
+/* Styling the download button */
+.syllabus-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.syllabus-btn:hover {
+    background-color: #388E3C;
+    transform: scale(1.05);
+}
