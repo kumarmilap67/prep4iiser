@@ -36,3 +36,29 @@
 
 
  }
+<!--try free test-->
+.button-container {
+    text-align: center;
+}
+
+.try-test-button {
+    display: inline-block;
+    background-color: #007bff; /* Primary button color */
+    color: #ffffff; /* Text color */
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.try-test-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.try-test-button:active {
+    background-color: #004085; /* Even darker shade when clicked */
+    transform: translateY(0); /* Reset lift on click */
+}
