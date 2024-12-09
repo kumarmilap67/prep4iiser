@@ -1,0 +1,73 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  header {
+    text-align: center;
+    border-bottom: 2px solid #007bff;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    color: #007bff;
+  }
+  
+  .instructions {
+    margin-bottom: 20px;
+  }
+  
+  .instructions h2 {
+    color: #333;
+  }
+  
+  .questions .question {
+    margin-bottom: 15px;
+  }
+  
+  .questions p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .questions input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .submit-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
